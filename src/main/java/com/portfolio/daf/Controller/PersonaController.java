@@ -42,7 +42,7 @@ public class PersonaController {
     }  
     
     //creamos una persona
-  /*
+ 
    @PostMapping("/create")
    
    public ResponseEntity<?> create(@RequestBody dtoPersona dtopersona){
@@ -57,7 +57,7 @@ public class PersonaController {
         
         return new ResponseEntity(new Mensaje("La educacion fue agregada con exito"), HttpStatus.OK);
    }
-  */
+  
    //actualizamos una Persona
     
     @PutMapping("/update/{id}")
